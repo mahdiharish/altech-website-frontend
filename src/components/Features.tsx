@@ -33,7 +33,7 @@ export default function Features() {
             Mengapa memilih Altech?
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Kami menawarkan layanan dengan teknologi mutakhir, servis yang profesional, semuanya diberikan dengan harga yang terjangkau.
+            Kami menawarkan layanan dengan teknologi mutakhir, servis yang profesional, semuanya diberikan dengan harga yang terjangkau.  
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
