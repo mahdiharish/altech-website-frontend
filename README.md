@@ -1,27 +1,35 @@
-# React + TypeScript + Vite
+### TECHNICAL TEST - MAKING COMPANY WEBSITE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## This test is intended to pass the technical test for frontend developer position in Altech Omega Andalan
 
-Currently, two official plugins are available:
+# Technologies used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- This project is developed with TypeScript as programming language, as it provides better code readibility and maintainability by defining types for variables, functions, and return values. This makes the overall code to be much more easier to read and understand for beginners.
 
-## Expanding the ESLint configuration
+- I am using React along with Vite and SWC that provides fast development server. Vite also helps optimize build process by bundling only the dependencies that are actually used in application.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- For styling, I am using Tailwind CSS instead of SASS, as it provides rapid development and utility-first approach, so I can quickly make components with simpler styles that looks good already. Tailwind also provides flexible customization and consistent design system.
 
-- Configure the top-level `parserOptions` property like this:
+- I am using React Router DOM that handles routing in a declarative way, where I can define the routes with JSX syntax, and much easier set up and visualization.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+- For other styling, I am using combination of Heroic Icons and Headless UI where it provides support with Tailwind CSS, as both components are supported by Tailwind CSS and can be easily modified.
+
+## How to install the project
+
+1. First, clone the project here
+
+```
+git clone https://github.com/mahdiharish/altech-website-frontend.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Install dependencies
+
+```
+npm install
+```
+
+3. Start the development server
+
+```
+npm run dev
+```
